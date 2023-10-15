@@ -1,0 +1,282 @@
+
+/* max-width--->desktop-->mobile--> */
+/* min-width--->mobile-->desktop--> */
+
+@media (max-width: 540px){
+  :root{
+    font-size: 50%;
+  }
+  .container{
+    padding: 0 2rem;
+  }
+
+p{
+  font-size: 1.8rem;
+  text-align: center ;
+}
+
+  .header-logo h2 {
+  font-size: 1.8rem;
+  }
+  .primary-btn{
+    text-align: center;
+    max-width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    display: inline-block
+    }
+    .header .container {
+      max-width: 100%;
+    }
+
+  .hero .hero-content h1{
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 0.10rem;
+  }
+  .hero .hero-content p{
+    text-align: justify;
+  }
+
+  .hero-box-content h2{
+  font-size: 3.2rem;
+  text-align: center;
+  
+  }  
+  nav{
+    display: none;
+  }
+  .container{
+    padding: 0 2.5rem;
+  }
+  .content-wraper{
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .hero-img img {
+    max-width: 70%;
+    margin: 0 auto;
+    
+  }
+  .hero-img{
+    order: 1;
+    display: flex;
+    
+  }
+  .hero-content{
+    max-width: 100%;
+    order: 2;
+  }
+  .bx-menu-alt-right{
+    display: inline-block;
+    font-size: 3rem;
+    margin: 1rem 1rem;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+
+  .hero-2 .hero-box-content {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .hero-3 .content-wraper h2 {
+    text-align: center;
+    max-width: 35rem;
+    margin: 1.6rem 0;
+  }
+  .hero-3 .content-wraper{
+    align-items: center;
+    max-width: 100%;
+  }
+  .hero-3 .contect {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+  .hero-3 .contain p{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    
+  }
+
+
+  .hero-3 h2{
+    text-align: center;
+    font-size: 3.3rem;
+  }
+  
+  
+  .content-project {
+    align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+  }
+  .hero-3 .project-1{
+    margin-left: 4.4rem;
+    width: 100%;
+  }
+  .hero-3 .project-1 h3{
+    width: 100%;
+  }
+  .hero-3 .project-1 p{
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+  .hero-3 .project-2{
+    padding: 0 12rem;
+    margin-right: 4.4rem;
+    width: 100%;
+  }
+  .hero-3 .project-2 h3{
+    width: 100%;
+  }
+  .hero-3 .project-2 p{
+    text-align: justify;
+  }
+  .hero-3 .project-3{
+    width: 100%;
+    padding:0 7rem;
+    margin-top: 4rem;
+    margin-left: 4.4rem;
+  }
+  .hero-3 .project-3 h3{
+    width: 100%;
+  }
+  .hero-3 .project-3 p{
+    text-align: justify;
+  }
+  .hero-3 .project-4{
+    padding: 0 2rem;
+    margin-right: 4.4rem;
+    width: 100%;
+  }
+  .hero-3 .project-4 h3{
+    width: 100%;
+  }
+  .hero-3 .project-4 p{
+    text-align: justify;
+  }
+
+  .hero-4 .content-wraper{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .hero-4 .count{
+    max-width: 100%;
+    align-items: center;
+    gap:  15rem;
+    
+  }
+
+  .hero-5 .box-wraper{
+    flex-direction: column;
+  }
+  
+  .hero-5 .box-wraper h2{
+    font-size: 3.5rem;
+    margin: 1.7rem 0;
+  }
+  .hero-5 .marg-box{
+    flex-direction: column;
+    flex-direction: center;
+    margin: 5rem 0;
+    
+  }
+  .hero-5 .Testimonial-1{
+    max-width: 100%;
+    margin-bottom: 5rem;
+  }
+  .Testimonial-1 img{
+    margin-left: 40%;
+  
+  }
+  .Testimonial-1 h3{
+    text-align: center;
+  }
+  .hero-5 .Testimonial-2{
+    max-width: 100%;
+    margin-bottom: 5rem;
+  }
+  .Testimonial-2 img{
+    margin-left: 40%;
+  
+  }
+  .Testimonial-2 h3{
+    text-align: center;
+  }
+  .hero-5 .Testimonial-3{
+    max-width: 100%;
+    margin-bottom: 5rem;
+  }
+  .Testimonial-3 img{
+    margin-left: 40%;
+  
+  }
+  .Testimonial-3 h3{
+    text-align: center;
+  }
+ .hero-5 .primary-bttn {
+  max-width: 100%;
+  display: flex;
+  margin: auto ;
+ }
+
+ .hero-6 .content-wraper{
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  }
+ 
+ .form input{
+  width: 100%;
+ }
+ .form select{
+  width: 100%;
+ }
+ .form textarea{
+  width: 100%;
+ }
+
+ .hero-6 .contact{
+  max-width: 100%;
+  text-align: center;
+  margin-top: 5rem;
+ }
+
+
+ .hero-6 .contact-info{
+  max-width: 100%;
+  }
+ 
+ .info{
+  max-width: 100%;
+  text-align: center;
+  padding: 4rem 1rem;
+  }
+
+ .hero-7 .content-wraper{
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+ }
+ .hero-7 .content-links{
+  margin-top: 3rem;
+  width: 100%;
+  align-items: center;
+  gap: 5rem;
+  }
+
+ .hero-7 .footer-logo{
+  width: 100%;
+  text-align: center;
+  }
+ 
+
+}
+
